@@ -1,0 +1,162 @@
+header {
+    position: sticky;
+    left: 100px;
+    top: 100px;
+    background-color: rgb(33, 105, 33);
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+header h1 {
+    color: black;
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(33, 105, 33);
+    font-family: 'Courier New';
+}
+
+.bg {
+    position: relative;
+}
+
+.bg img {
+    width: 100%;
+}
+
+nav {
+    background-color: rgb(39, 116, 39);
+    padding: 20px;
+    position: sticky;
+    top: 105px;
+    color: black;
+    
+}
+
+nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    max-width: 100%;
+    width: 1500px;
+    margin: 0px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+    background-color: rgb(33, 105, 33);
+}
+
+article h2 {
+    color: black;
+    font-size: 48px;
+    font-family: 'Courier New' ;
+    text-align: center;
+    background-color: rgb(33, 105, 33);
+}
+
+article p {
+    line-height: 2em;
+    color: black;
+    text-align: justify;
+    font-size: larger;
+}
+
+.gallery {
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+
+.container div{
+    height: 370px;
+    width: 335%;
+    background: green;
+    margin: 60px;
+    
+}
+
+.gallery {
+    border: 2px solid lightgrey;
+    margin: 15px;
+    width: 200px;
+    border-radius: 6px;
+
+}
+
+.gallery .description {
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery:hover{
+    border: 2px solid darkgray;
+
+}
+
+.gallery .img{
+    width: 20%;
+}
+
+section.About {
+    background: rgb(33, 105, 33);
+    text-align: center;
+    padding: 20px 20px;
+    color: black;
+
+}
+
+.About h2 {
+    font-size: 36px;
+}
+
+
+footer {
+    background-color: rgb(39, 116, 39);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* psuedo classes */
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+.gallery:hover{
+    border: 2px solid darkgray;
+}
+
+p::after {
+    content:'...';
+}
+
+/* responsive style */
+
+@media screen and (max-width: px) {
+ 
+}
